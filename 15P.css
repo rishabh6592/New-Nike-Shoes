@@ -187,7 +187,7 @@ html,body{
     background-color: #E1334C;
     clip-path: polygon(18% 0, 100% 0, 100% 100%, 63% 100%);
 }
-#main>img{
+#main img{
     position: absolute;
     height: 400px;
     transform: rotatey(180deg) rotatez(30deg);
