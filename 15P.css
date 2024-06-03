@@ -98,11 +98,19 @@ html,body{
     font-weight: 600;
     font-family: montserrat;
 }
+#nav h4:hover{
+    color: #E1334C;
+    transition: 1s;
+}
 #nav h5{
     font-size: 15px;
     text-transform: uppercase;
     margin-left: 10px;
     font-weight: 600;
+}
+#nav h5:hover{
+    color: black;
+    transition: 1s;
 }
 #nav-prt3{
     display: flex;
@@ -112,6 +120,10 @@ html,body{
     padding: 8px;
     background-color: rgba(255, 255, 255, 0.58);
     border-radius: 50%;
+}
+#nav i:hover{
+    color: black;
+    transition: 1s;
 }
 #left{
     height: 100%;
@@ -123,11 +135,12 @@ html,body{
 #left h3{
     font-size: 30px;
     margin-top: 15px;
+    font-family: montserrat;
 }
 #left h1{
     font-size: 70px;
     margin-bottom: 20px;
-
+    /* font-family: poppins; */
     animation-name: left;
     animation-duration: 2s;
     animation-delay: 4s;
@@ -147,7 +160,6 @@ html,body{
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 17px; 
-
     animation-name: left-p;
     animation-duration: 2s;
     animation-delay: 4s;
@@ -156,10 +168,18 @@ html,body{
 #left button{
     border-radius: 50px;
     background-color: #E1334C;
-    padding: 12px 20px;
+    padding: 10px 20px;
     border: none;
     text-transform: none;
     font-weight: 600;
+    color: black;
+}
+#left button:hover{
+    color: white;
+    transition: 1s;
+    background-color: #283748;
+    transition: 1s;
+    border: 1px solid white;
 }
 #right{
     height: 100%;
