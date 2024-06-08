@@ -188,7 +188,7 @@ html,body{
 }
 #main>img{
     position: absolute;
-    height: 500px;
+    height: 520px;
     transform: rotatey(180deg) rotatez(30deg);
     left: 55%;
     top: 16%;
