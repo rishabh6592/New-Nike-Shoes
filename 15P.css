@@ -192,7 +192,7 @@ html,body{
     transform: rotatey(180deg) rotatez(30deg);
     left: 55%;
     top: 16%;
-    filter: brightness(20px);
+    filter: brightness(22px);
 
     animation-name: shoes;
     animation-duration: 3s;
